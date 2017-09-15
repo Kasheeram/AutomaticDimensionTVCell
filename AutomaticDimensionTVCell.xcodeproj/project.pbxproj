@@ -15,6 +15,7 @@
 		922EFD0A1F6B905A00716EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922EFD081F6B905A00716EE5 /* LaunchScreen.storyboard */; };
 		922EFD151F6B905A00716EE5 /* AutomaticDimensionTVCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922EFD141F6B905A00716EE5 /* AutomaticDimensionTVCellTests.swift */; };
 		922EFD201F6B905A00716EE5 /* AutomaticDimensionTVCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922EFD1F1F6B905A00716EE5 /* AutomaticDimensionTVCellUITests.swift */; };
+		922EFD2E1F6B913800716EE5 /* AutomaticDimensionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922EFD2D1F6B913800716EE5 /* AutomaticDimensionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		922EFD1B1F6B905A00716EE5 /* AutomaticDimensionTVCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticDimensionTVCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922EFD1F1F6B905A00716EE5 /* AutomaticDimensionTVCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticDimensionTVCellUITests.swift; sourceTree = "<group>"; };
 		922EFD211F6B905A00716EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922EFD2D1F6B913800716EE5 /* AutomaticDimensionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticDimensionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				922EFCFC1F6B905A00716EE5 /* AppDelegate.swift */,
 				922EFCFE1F6B905A00716EE5 /* ViewController.swift */,
+				922EFD2D1F6B913800716EE5 /* AutomaticDimensionTableViewCell.swift */,
 				922EFD001F6B905A00716EE5 /* Main.storyboard */,
 				922EFD061F6B905A00716EE5 /* Assets.xcassets */,
 				922EFD081F6B905A00716EE5 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922EFD2E1F6B913800716EE5 /* AutomaticDimensionTableViewCell.swift in Sources */,
 				922EFD051F6B905A00716EE5 /* AutomaticDimensionTVCell.xcdatamodeld in Sources */,
 				922EFCFF1F6B905A00716EE5 /* ViewController.swift in Sources */,
 				922EFCFD1F6B905A00716EE5 /* AppDelegate.swift in Sources */,

@@ -9,6 +9,8 @@
 import UIKit
 
 class AutomaticDimensionTableViewCell: UITableViewCell {
+   
+    @IBOutlet weak var txtLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
